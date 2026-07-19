@@ -5,7 +5,7 @@
     { "code": "CONT", "name": "Contract Law", "color": "#A8763E" },
     { "code": "CPC", "name": "Civil Procedure", "color": "#3A5A40" },
     { "code": "TORT", "name": "Law of Torts", "color": "#4A3B6B" },
-    { "code": "MAX", "name": "Legal Maxims & Principles", "color": "#2E5266" }
+    { "code": "MAX", "name": "Legal Maxims & Principles", "color": "#2E5266" },
     { "code": "FAM", "name": "Family Law (HMA)", "color": "#A64B2A" }
   ],
   "terms": [
@@ -328,55 +328,56 @@
       "statute_reference": "Developed through judicial interpretation",
       "example": "Ordinarily only an affected party has locus standi to sue, but Indian courts allow third parties to file PILs in matters of public concern.",
       "related_terms": ["pil"]
-      {
-  "id": "custom-or-usage",
-  "code": "FAM.01",
-  "term": "Custom or Usage",
-  "category": "FAM",
-  "definition": "A rule that has been followed continuously and consistently for a long time within a particular community, tribe, group, or family, to the point that it has acquired the force of law among Hindus — provided the rule is definite, not unreasonable, and not against public policy.",
-  "statute_reference": "Section 3(a), Hindu Marriage Act, 1955",
-  "example": "A community that has long permitted marriage between certain cousins, as an established and certain practice, may rely on that custom as an exception to the general prohibited-relationship rule.",
-  "related_terms": ["sapinda-relationship", "degrees-of-prohibited-relationship"]
-},
-{
-  "id": "district-court",
-  "code": "FAM.02",
-  "term": "District Court",
-  "category": "FAM",
-  "definition": "The court that has jurisdiction to hear proceedings under the Hindu Marriage Act — either the ordinary civil court of original jurisdiction in a district, or a court specifically notified by the State Government to handle such matters.",
-  "statute_reference": "Section 3(b), Hindu Marriage Act, 1955",
-  "example": "A divorce petition under the Act is filed before the district court having jurisdiction over where the couple last resided together.",
-  "related_terms": []
-},
-{
-  "id": "full-half-uterine-blood",
-  "code": "FAM.03",
-  "term": "Full Blood, Half Blood and Uterine Blood",
-  "category": "FAM",
-  "definition": "Three ways of describing blood relationship for the purposes of this Act: full blood means descent from the same ancestor by the same wife; half blood means descent from the same ancestor but through different wives; uterine blood means descent from the same ancestress but through different husbands.",
-  "statute_reference": "Section 3(c), Hindu Marriage Act, 1955",
-  "example": "Two children of the same father but different mothers are related by half blood; two children of the same mother but different fathers are related by uterine blood.",
-  "related_terms": ["sapinda-relationship"]
-},
-{
-  "id": "sapinda-relationship",
-  "code": "FAM.04",
-  "term": "Sapinda Relationship",
-  "category": "FAM",
-  "definition": "A blood relationship traced through a common ancestor — extending up to the third generation on the mother's side and the fifth generation on the father's side (counting each person, including the one whose relationship is being traced, as a generation). Marriage between sapindas is generally prohibited unless a valid custom permits it.",
-  "statute_reference": "Section 3(f), Hindu Marriage Act, 1955",
-  "example": "Two people who share a common great-grandfather on the father's side fall within the sapinda limit and cannot marry unless their community's custom allows it.",
-  "related_terms": ["custom-or-usage", "degrees-of-prohibited-relationship", "full-half-uterine-blood"]
-},
-{
-  "id": "degrees-of-prohibited-relationship",
-  "code": "FAM.05",
-  "term": "Degrees of Prohibited Relationship",
-  "category": "FAM",
-  "definition": "A set of close family relationships between which marriage is not allowed — including lineal ascendants/descendants, a person and the spouse of their close relative, and siblings, uncles/aunts with nieces/nephews, and children of siblings.",
-  "statute_reference": "Section 3(g), Hindu Marriage Act, 1955",
-  "example": "A marriage between an uncle and his niece falls within the degrees of prohibited relationship and is void unless a recognised custom permits it.",
-  "related_terms": ["sapinda-relationship", "custom-or-usage"]
-}
+    },
+    {
+      "id": "custom-or-usage",
+      "code": "FAM.01",
+      "term": "Custom or Usage",
+      "category": "FAM",
+      "definition": "A rule that has been followed continuously and consistently for a long time within a particular community, tribe, group, or family, to the point that it has acquired the force of law among Hindus — provided the rule is definite, not unreasonable, and not against public policy.",
+      "statute_reference": "Section 3(a), Hindu Marriage Act, 1955",
+      "example": "A community that has long permitted marriage between certain cousins, as an established and certain practice, may rely on that custom as an exception to the general prohibited-relationship rule.",
+      "related_terms": ["sapinda-relationship", "degrees-of-prohibited-relationship"]
+    },
+    {
+      "id": "district-court",
+      "code": "FAM.02",
+      "term": "District Court",
+      "category": "FAM",
+      "definition": "The court that has jurisdiction to hear proceedings under the Hindu Marriage Act — either the ordinary civil court of original jurisdiction in a district, or a court specifically notified by the State Government to handle such matters.",
+      "statute_reference": "Section 3(b), Hindu Marriage Act, 1955",
+      "example": "A divorce petition under the Act is filed before the district court having jurisdiction over where the couple last resided together.",
+      "related_terms": []
+    },
+    {
+      "id": "full-half-uterine-blood",
+      "code": "FAM.03",
+      "term": "Full Blood, Half Blood and Uterine Blood",
+      "category": "FAM",
+      "definition": "Three ways of describing blood relationship for the purposes of this Act: full blood means descent from the same ancestor by the same wife; half blood means descent from the same ancestor but through different wives; uterine blood means descent from the same ancestress but through different husbands.",
+      "statute_reference": "Section 3(c), Hindu Marriage Act, 1955",
+      "example": "Two children of the same father but different mothers are related by half blood; two children of the same mother but different fathers are related by uterine blood.",
+      "related_terms": ["sapinda-relationship"]
+    },
+    {
+      "id": "sapinda-relationship",
+      "code": "FAM.04",
+      "term": "Sapinda Relationship",
+      "category": "FAM",
+      "definition": "A blood relationship traced through a common ancestor — extending up to the third generation on the mother's side and the fifth generation on the father's side (counting each person, including the one whose relationship is being traced, as a generation). Marriage between sapindas is generally prohibited unless a valid custom permits it.",
+      "statute_reference": "Section 3(f), Hindu Marriage Act, 1955",
+      "example": "Two people who share a common great-grandfather on the father's side fall within the sapinda limit and cannot marry unless their community's custom allows it.",
+      "related_terms": ["custom-or-usage", "degrees-of-prohibited-relationship", "full-half-uterine-blood"]
+    },
+    {
+      "id": "degrees-of-prohibited-relationship",
+      "code": "FAM.05",
+      "term": "Degrees of Prohibited Relationship",
+      "category": "FAM",
+      "definition": "A set of close family relationships between which marriage is not allowed — including lineal ascendants/descendants, a person and the spouse of their close relative, and siblings, uncles/aunts with nieces/nephews, and children of siblings.",
+      "statute_reference": "Section 3(g), Hindu Marriage Act, 1955",
+      "example": "A marriage between an uncle and his niece falls within the degrees of prohibited relationship and is void unless a recognised custom permits it.",
+      "related_terms": ["sapinda-relationship", "custom-or-usage"]
+    }
   ]
 }
