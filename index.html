@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vidhikosh — An Indian Legal Dictionary</title>
+<meta name="description" content="An open, community-built glossary of Indian legal terms, built by law students, for law students.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="wordmark" href="#" data-action="home">
+      <span class="seal" aria-hidden="true">
+        <svg viewBox="0 0 48 48" width="34" height="34">
+          <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="24" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="1"/>
+          <text x="24" y="30" text-anchor="middle" font-family="Fraunces, serif" font-size="18" fill="currentColor">वि</text>
+        </svg>
+      </span>
+      <span class="wordmark-text">
+        <span class="wordmark-main">Vidhikosh</span>
+        <span class="wordmark-sub">विधिकोश · an Indian legal dictionary</span>
+      </span>
+    </a>
+    <p class="tagline">Compiled by law students. Verified by citation. Open to all.</p>
+  </div>
+</header>
+
+<main class="layout">
+
+  <aside class="panel-index" aria-label="Term index">
+    <div class="search-block">
+      <label class="search-label" for="search">Search the dictionary</label>
+      <div class="search-row">
+        <input type="text" id="search" placeholder="e.g. bail, mens rea, injunction…" autocomplete="off">
+        <span class="search-count" id="resultCount" aria-live="polite"></span>
+      </div>
+    </div>
+
+    <div class="filter-block">
+      <span class="filter-label">Filter by subject</span>
+      <div class="chip-row" id="chipRow"></div>
+    </div>
+
+    <nav class="term-list" id="termList" aria-label="Alphabetical term list"></nav>
+  </aside>
+
+  <section class="panel-detail" id="detailPanel" aria-live="polite">
+    <div class="empty-state" id="emptyState">
+      <div class="empty-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="56" height="56">
+          <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="1"/>
+          <text x="32" y="40" text-anchor="middle" font-family="Fraunces, serif" font-size="24" fill="currentColor">वि</text>
+        </svg>
+      </div>
+      <h2>Select a term to open the entry</h2>
+      <p>Search on the left, browse by subject, or click any entry in the index to read its definition, statutory reference, and an example of how it's used.</p>
+      <p class="stat-line" id="statLine"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Vidhikosh is an open-source, student-maintained glossary — not a substitute for professional legal advice. See a term that's missing, wrong, or out of date? <a href="CONTRIBUTING.md">Contribute a fix or a new entry</a> via pull request.</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
