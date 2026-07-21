@@ -1,12 +1,45 @@
 {
   "categories": [
-    { "code": "CONST", "name": "Constitutional Law", "color": "#7A1F2B" },
-    { "code": "CRIM", "name": "Criminal Law & Procedure", "color": "#1B1F3B" },
-    { "code": "CONT", "name": "Contract Law", "color": "#A8763E" },
-    { "code": "CPC", "name": "Civil Procedure", "color": "#3A5A40" },
-    { "code": "TORT", "name": "Law of Torts", "color": "#4A3B6B" },
-    { "code": "MAX", "name": "Legal Maxims & Principles", "color": "#2E5266" },
-    { "code": "FAM", "name": "Family Law (HMA)", "color": "#A64B2A" }
+    {
+      "code": "CONST",
+      "name": "Constitutional Law",
+      "color": "#7A1F2B"
+    },
+    {
+      "code": "CRIM",
+      "name": "Criminal Law & Procedure",
+      "color": "#1B1F3B"
+    },
+    {
+      "code": "CONT",
+      "name": "Contract Law",
+      "color": "#A8763E"
+    },
+    {
+      "code": "CPC",
+      "name": "Civil Procedure",
+      "color": "#3A5A40"
+    },
+    {
+      "code": "TORT",
+      "name": "Law of Torts",
+      "color": "#4A3B6B"
+    },
+    {
+      "code": "MAX",
+      "name": "Legal Maxims & Principles",
+      "color": "#2E5266"
+    },
+    {
+      "code": "FAM",
+      "name": "Family Law (HMA)",
+      "color": "#A64B2A"
+    },
+    {
+      "code": "COMP",
+      "name": "Company Law (Companies Act, 2013)",
+      "color": "#1F6B6B"
+    }
   ],
   "terms": [
     {
@@ -17,7 +50,10 @@
       "definition": "A writ that orders a person who is detaining someone to produce that person before a court and justify the detention. It is the primary safeguard against unlawful arrest or imprisonment.",
       "statute_reference": "Article 32 and Article 226, Constitution of India",
       "example": "If police hold someone for over 24 hours without producing them before a magistrate, a habeas corpus petition can be filed to challenge the detention.",
-      "related_terms": ["writ", "fundamental-rights"]
+      "related_terms": [
+        "writ",
+        "fundamental-rights"
+      ]
     },
     {
       "id": "writ",
@@ -27,7 +63,10 @@
       "definition": "A formal written order issued by a court, most commonly the Supreme Court or a High Court, directing a person or authority to do or stop doing something. Indian law recognises five kinds: habeas corpus, mandamus, prohibition, certiorari, and quo warranto.",
       "statute_reference": "Article 32 and Article 226, Constitution of India",
       "example": "A mandamus writ can compel a government department to perform a duty it has been unlawfully refusing to carry out.",
-      "related_terms": ["habeas-corpus", "judicial-review"]
+      "related_terms": [
+        "habeas-corpus",
+        "judicial-review"
+      ]
     },
     {
       "id": "pil",
@@ -37,7 +76,10 @@
       "definition": "A case filed in court not to protect one individual's private interest, but to address an issue affecting the public at large. Indian courts have relaxed the usual rule of standing to allow public-spirited citizens or organisations to file PILs on behalf of those who cannot approach the court themselves.",
       "statute_reference": "Developed through judicial interpretation of Article 32 and Article 226",
       "example": "An NGO filing a case over unsafe drinking water in a locality, even though it isn't personally affected, is exercising PIL.",
-      "related_terms": ["locus-standi", "writ"]
+      "related_terms": [
+        "locus-standi",
+        "writ"
+      ]
     },
     {
       "id": "judicial-review",
@@ -47,7 +89,10 @@
       "definition": "The power of courts to examine laws, government actions, and executive orders, and to strike them down if they violate the Constitution.",
       "statute_reference": "Implicit in Articles 13, 32, 226 and 227, Constitution of India",
       "example": "The Supreme Court striking down a statute as unconstitutional is an exercise of judicial review.",
-      "related_terms": ["ultra-vires", "writ"]
+      "related_terms": [
+        "ultra-vires",
+        "writ"
+      ]
     },
     {
       "id": "fundamental-rights",
@@ -57,7 +102,10 @@
       "definition": "A set of basic rights guaranteed to individuals by the Constitution, enforceable directly in court, and which the State cannot ordinarily take away by ordinary legislation.",
       "statute_reference": "Part III, Articles 12-35, Constitution of India",
       "example": "The right to freedom of speech under Article 19(1)(a) is a fundamental right.",
-      "related_terms": ["habeas-corpus", "judicial-review"]
+      "related_terms": [
+        "habeas-corpus",
+        "judicial-review"
+      ]
     },
     {
       "id": "bail",
@@ -67,7 +115,11 @@
       "definition": "The temporary release of an accused person from custody, usually on furnishing security, while their case is pending trial.",
       "statute_reference": "Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023 (formerly Code of Criminal Procedure, 1973)",
       "example": "A person accused of a bailable offence has a right to be released on bail once they furnish the required bond.",
-      "related_terms": ["anticipatory-bail", "remand", "cognizable-offence"]
+      "related_terms": [
+        "anticipatory-bail",
+        "remand",
+        "cognizable-offence"
+      ]
     },
     {
       "id": "anticipatory-bail",
@@ -77,7 +129,10 @@
       "definition": "Bail sought in advance by a person who apprehends arrest for a non-bailable offence, allowing them to avoid custody if the arrest does take place.",
       "statute_reference": "Section 482, BNSS 2023 (formerly Section 438, CrPC 1973)",
       "example": "Someone who learns an FIR naming them is about to be filed may apply for anticipatory bail before any arrest occurs.",
-      "related_terms": ["bail", "fir"]
+      "related_terms": [
+        "bail",
+        "fir"
+      ]
     },
     {
       "id": "fir",
@@ -87,7 +142,10 @@
       "definition": "The written record prepared by police when they first receive information about the commission of a cognizable offence. It sets the criminal investigation in motion.",
       "statute_reference": "Section 173, BNSS 2023 (formerly Section 154, CrPC 1973)",
       "example": "A theft victim reporting the incident at a police station results in an FIR being registered.",
-      "related_terms": ["cognizable-offence", "anticipatory-bail"]
+      "related_terms": [
+        "cognizable-offence",
+        "anticipatory-bail"
+      ]
     },
     {
       "id": "cognizable-offence",
@@ -97,7 +155,10 @@
       "definition": "An offence for which police can arrest a person without a warrant and begin investigation without needing prior permission from a magistrate. These are usually the more serious offences.",
       "statute_reference": "Section 2, BNSS 2023 (formerly Section 2(c), CrPC 1973)",
       "example": "Murder and robbery are cognizable offences, allowing immediate arrest.",
-      "related_terms": ["non-cognizable-offence", "fir"]
+      "related_terms": [
+        "non-cognizable-offence",
+        "fir"
+      ]
     },
     {
       "id": "non-cognizable-offence",
@@ -107,7 +168,9 @@
       "definition": "An offence where police cannot arrest without a warrant, and cannot investigate without the magistrate's permission. These are generally less serious offences.",
       "statute_reference": "Section 2, BNSS 2023 (formerly Section 2(l), CrPC 1973)",
       "example": "Simple hurt or public nuisance are typically treated as non-cognizable offences.",
-      "related_terms": ["cognizable-offence"]
+      "related_terms": [
+        "cognizable-offence"
+      ]
     },
     {
       "id": "mens-rea",
@@ -117,7 +180,9 @@
       "definition": "Latin for \"guilty mind.\" It refers to the mental element of a crime — the intention, knowledge, or recklessness required for an act to count as an offence.",
       "statute_reference": "A general principle underlying Bharatiya Nyaya Sanhita, 2023 (formerly Indian Penal Code, 1860)",
       "example": "Causing someone's death accidentally, with no intention or knowledge of the consequence, generally lacks the mens rea required for murder.",
-      "related_terms": ["actus-reus"]
+      "related_terms": [
+        "actus-reus"
+      ]
     },
     {
       "id": "actus-reus",
@@ -127,7 +192,9 @@
       "definition": "Latin for \"guilty act.\" It refers to the physical element of a crime — the actual conduct, act, or omission that constitutes the offence, as distinct from the mental state behind it.",
       "statute_reference": "A general principle underlying Bharatiya Nyaya Sanhita, 2023 (formerly Indian Penal Code, 1860)",
       "example": "In theft, the actus reus is the act of dishonestly taking someone else's property without consent.",
-      "related_terms": ["mens-rea"]
+      "related_terms": [
+        "mens-rea"
+      ]
     },
     {
       "id": "remand",
@@ -137,7 +204,9 @@
       "definition": "An order sending an accused person back into custody, either police or judicial, while investigation or trial continues.",
       "statute_reference": "Section 187, BNSS 2023 (formerly Section 167, CrPC 1973)",
       "example": "If police need more time to investigate, a magistrate may remand the accused to judicial custody.",
-      "related_terms": ["bail"]
+      "related_terms": [
+        "bail"
+      ]
     },
     {
       "id": "consideration",
@@ -147,7 +216,11 @@
       "definition": "Something of value — a right, benefit, or promise — given by one party in exchange for another party's promise. It is one of the essential elements that makes an agreement legally enforceable as a contract.",
       "statute_reference": "Section 2(d) and Section 25, Indian Contract Act, 1872",
       "example": "In a sale, the price paid by the buyer is consideration for the seller's promise to transfer goods.",
-      "related_terms": ["offer", "acceptance", "void-agreement"]
+      "related_terms": [
+        "offer",
+        "acceptance",
+        "void-agreement"
+      ]
     },
     {
       "id": "offer",
@@ -157,7 +230,10 @@
       "definition": "A clear expression by one party of willingness to do or refrain from doing something, made with the intention of obtaining the other party's assent, so as to form an agreement.",
       "statute_reference": "Section 2(a), Indian Contract Act, 1872",
       "example": "A shopkeeper displaying goods with a price tag is generally treated as an invitation to offer, not an offer itself.",
-      "related_terms": ["acceptance", "consideration"]
+      "related_terms": [
+        "acceptance",
+        "consideration"
+      ]
     },
     {
       "id": "acceptance",
@@ -167,7 +243,10 @@
       "definition": "The unqualified assent given by the party to whom an offer is made, which converts the offer into a promise and, along with consideration, forms a binding agreement.",
       "statute_reference": "Section 2(b), Indian Contract Act, 1872",
       "example": "Once a buyer agrees to a seller's exact terms without modification, acceptance is complete.",
-      "related_terms": ["offer", "consideration"]
+      "related_terms": [
+        "offer",
+        "consideration"
+      ]
     },
     {
       "id": "void-agreement",
@@ -177,7 +256,10 @@
       "definition": "An agreement that is not enforceable by law at all, from the very beginning, because it fails to meet the essential requirements of a valid contract.",
       "statute_reference": "Section 2(g), Indian Contract Act, 1872",
       "example": "An agreement to do something impossible, like paying someone to bring back a person from the dead, is void.",
-      "related_terms": ["voidable-contract", "consideration"]
+      "related_terms": [
+        "voidable-contract",
+        "consideration"
+      ]
     },
     {
       "id": "voidable-contract",
@@ -187,7 +269,9 @@
       "definition": "An agreement that is enforceable at the option of one party, but not the other — typically because that party's consent was obtained through coercion, undue influence, fraud, or misrepresentation.",
       "statute_reference": "Section 2(i), Indian Contract Act, 1872",
       "example": "A contract signed under threat can be treated as voidable at the option of the threatened party.",
-      "related_terms": ["void-agreement"]
+      "related_terms": [
+        "void-agreement"
+      ]
     },
     {
       "id": "plaintiff",
@@ -197,7 +281,10 @@
       "definition": "The party who initiates a civil lawsuit by filing a suit against another party, seeking a legal remedy.",
       "statute_reference": "Code of Civil Procedure, 1908",
       "example": "In a suit for recovery of money, the person owed the money and filing the case is the plaintiff.",
-      "related_terms": ["defendant", "decree"]
+      "related_terms": [
+        "defendant",
+        "decree"
+      ]
     },
     {
       "id": "defendant",
@@ -207,7 +294,9 @@
       "definition": "The party against whom a civil suit is brought, and who is called upon to answer the plaintiff's claims.",
       "statute_reference": "Code of Civil Procedure, 1908",
       "example": "The person alleged to owe money in a recovery suit is the defendant.",
-      "related_terms": ["plaintiff"]
+      "related_terms": [
+        "plaintiff"
+      ]
     },
     {
       "id": "decree",
@@ -217,7 +306,10 @@
       "definition": "The formal expression of a court's final decision on the rights of the parties in a civil suit, conclusively determining the matters in dispute.",
       "statute_reference": "Section 2(2), Code of Civil Procedure, 1908",
       "example": "A court's order directing a defendant to pay a specific sum to the plaintiff, once it finally disposes of the suit, is a decree.",
-      "related_terms": ["plaintiff", "injunction"]
+      "related_terms": [
+        "plaintiff",
+        "injunction"
+      ]
     },
     {
       "id": "injunction",
@@ -227,7 +319,9 @@
       "definition": "A court order that requires a party to do, or more commonly refrain from doing, a specific act. It is a preventive or protective remedy rather than a monetary one.",
       "statute_reference": "Specific Relief Act, 1963; Order XXXIX, Code of Civil Procedure, 1908",
       "example": "A court restraining a builder from continuing unauthorised construction is granting an injunction.",
-      "related_terms": ["decree"]
+      "related_terms": [
+        "decree"
+      ]
     },
     {
       "id": "affidavit",
@@ -237,7 +331,10 @@
       "definition": "A written statement of facts, sworn or affirmed by the person making it before an authorised officer, and used as evidence in court proceedings.",
       "statute_reference": "Order XIX, Code of Civil Procedure, 1908",
       "example": "A party may file an affidavit in support of an application, setting out the facts it relies on.",
-      "related_terms": ["plaintiff", "defendant"]
+      "related_terms": [
+        "plaintiff",
+        "defendant"
+      ]
     },
     {
       "id": "tort",
@@ -247,7 +344,10 @@
       "definition": "A civil wrong, other than a breach of contract, for which the law provides a remedy, usually in the form of unliquidated damages.",
       "statute_reference": "Uncodified; developed mainly through case law in India",
       "example": "Someone injured by another person's carelessness on the road may sue in tort for damages.",
-      "related_terms": ["negligence", "defamation"]
+      "related_terms": [
+        "negligence",
+        "defamation"
+      ]
     },
     {
       "id": "negligence",
@@ -257,7 +357,9 @@
       "definition": "The failure to take reasonable care that a person in the circumstances owed to another, resulting in harm or loss to that other person.",
       "statute_reference": "Uncodified; developed mainly through case law in India",
       "example": "A doctor failing to follow standard medical practice, causing harm to a patient, may be liable in negligence.",
-      "related_terms": ["tort"]
+      "related_terms": [
+        "tort"
+      ]
     },
     {
       "id": "defamation",
@@ -267,7 +369,9 @@
       "definition": "A false statement, made to a third party, that harms the reputation of the person it is about. In India it can give rise to both civil liability (tort) and criminal liability.",
       "statute_reference": "Section 356, Bharatiya Nyaya Sanhita, 2023 (formerly Section 499, IPC 1860) for criminal defamation; tortious defamation is uncodified",
       "example": "Publishing a false, damaging claim about someone in a newspaper can amount to defamation.",
-      "related_terms": ["tort"]
+      "related_terms": [
+        "tort"
+      ]
     },
     {
       "id": "stare-decisis",
@@ -277,7 +381,10 @@
       "definition": "Latin for \"to stand by things decided.\" It is the principle that courts should follow precedents set by earlier decisions, especially those of higher courts, when deciding similar cases.",
       "statute_reference": "Article 141, Constitution of India (binding nature of Supreme Court decisions)",
       "example": "A High Court following a Supreme Court ruling on an identical legal question is applying stare decisis.",
-      "related_terms": ["ratio-decidendi", "obiter-dicta"]
+      "related_terms": [
+        "ratio-decidendi",
+        "obiter-dicta"
+      ]
     },
     {
       "id": "obiter-dicta",
@@ -287,7 +394,10 @@
       "definition": "Latin for \"things said by the way.\" Remarks or observations made by a judge in a judgment that are not essential to the decision and therefore do not form binding precedent, though they may carry persuasive value.",
       "statute_reference": "Developed through judicial interpretation",
       "example": "A judge's passing comment on a hypothetical scenario, unrelated to the facts before the court, is obiter dicta.",
-      "related_terms": ["ratio-decidendi", "stare-decisis"]
+      "related_terms": [
+        "ratio-decidendi",
+        "stare-decisis"
+      ]
     },
     {
       "id": "ratio-decidendi",
@@ -297,7 +407,10 @@
       "definition": "Latin for \"the reason for deciding.\" It is the core legal principle or reasoning that forms the basis of a court's decision, and it is this part of a judgment that becomes binding precedent.",
       "statute_reference": "Developed through judicial interpretation",
       "example": "The legal reasoning a court relies on to hold a particular clause unconstitutional forms the ratio decidendi of that judgment.",
-      "related_terms": ["obiter-dicta", "stare-decisis"]
+      "related_terms": [
+        "obiter-dicta",
+        "stare-decisis"
+      ]
     },
     {
       "id": "res-judicata",
@@ -307,7 +420,9 @@
       "definition": "Latin for \"a matter already judged.\" It prevents parties from re-litigating a matter that has already been conclusively decided by a competent court between the same parties.",
       "statute_reference": "Section 11, Code of Civil Procedure, 1908",
       "example": "Once a property dispute between two parties is finally decided, neither party can file a fresh suit on the same issue.",
-      "related_terms": ["decree"]
+      "related_terms": [
+        "decree"
+      ]
     },
     {
       "id": "ultra-vires",
@@ -317,7 +432,9 @@
       "definition": "Latin for \"beyond the powers.\" It describes an act done by an authority, company, or official that exceeds the legal power or authority granted to it, making the act invalid.",
       "statute_reference": "Developed through judicial interpretation; also used under Companies Act, 2013",
       "example": "A subordinate law that contradicts the parent statute under which it was made can be struck down as ultra vires.",
-      "related_terms": ["judicial-review"]
+      "related_terms": [
+        "judicial-review"
+      ]
     },
     {
       "id": "locus-standi",
@@ -327,7 +444,9 @@
       "definition": "Latin for \"place to stand.\" It refers to a person's legal right or sufficient interest to bring a matter before a court. Indian courts have relaxed this requirement significantly in public interest litigation.",
       "statute_reference": "Developed through judicial interpretation",
       "example": "Ordinarily only an affected party has locus standi to sue, but Indian courts allow third parties to file PILs in matters of public concern.",
-      "related_terms": ["pil"]
+      "related_terms": [
+        "pil"
+      ]
     },
     {
       "id": "custom-or-usage",
@@ -337,7 +456,10 @@
       "definition": "A rule that has been followed continuously and consistently for a long time within a particular community, tribe, group, or family, to the point that it has acquired the force of law among Hindus — provided the rule is definite, not unreasonable, and not against public policy.",
       "statute_reference": "Section 3(a), Hindu Marriage Act, 1955",
       "example": "A community that has long permitted marriage between certain cousins, as an established and certain practice, may rely on that custom as an exception to the general prohibited-relationship rule.",
-      "related_terms": ["sapinda-relationship", "degrees-of-prohibited-relationship"]
+      "related_terms": [
+        "sapinda-relationship",
+        "degrees-of-prohibited-relationship"
+      ]
     },
     {
       "id": "district-court",
@@ -357,7 +479,9 @@
       "definition": "Three ways of describing blood relationship for the purposes of this Act: full blood means descent from the same ancestor by the same wife; half blood means descent from the same ancestor but through different wives; uterine blood means descent from the same ancestress but through different husbands.",
       "statute_reference": "Section 3(c), Hindu Marriage Act, 1955",
       "example": "Two children of the same father but different mothers are related by half blood; two children of the same mother but different fathers are related by uterine blood.",
-      "related_terms": ["sapinda-relationship"]
+      "related_terms": [
+        "sapinda-relationship"
+      ]
     },
     {
       "id": "sapinda-relationship",
@@ -367,7 +491,11 @@
       "definition": "A blood relationship traced through a common ancestor — extending up to the third generation on the mother's side and the fifth generation on the father's side (counting each person, including the one whose relationship is being traced, as a generation). Marriage between sapindas is generally prohibited unless a valid custom permits it.",
       "statute_reference": "Section 3(f), Hindu Marriage Act, 1955",
       "example": "Two people who share a common great-grandfather on the father's side fall within the sapinda limit and cannot marry unless their community's custom allows it.",
-      "related_terms": ["custom-or-usage", "degrees-of-prohibited-relationship", "full-half-uterine-blood"]
+      "related_terms": [
+        "custom-or-usage",
+        "degrees-of-prohibited-relationship",
+        "full-half-uterine-blood"
+      ]
     },
     {
       "id": "degrees-of-prohibited-relationship",
@@ -377,7 +505,1190 @@
       "definition": "A set of close family relationships between which marriage is not allowed — including lineal ascendants/descendants, a person and the spouse of their close relative, and siblings, uncles/aunts with nieces/nephews, and children of siblings.",
       "statute_reference": "Section 3(g), Hindu Marriage Act, 1955",
       "example": "A marriage between an uncle and his niece falls within the degrees of prohibited relationship and is void unless a recognised custom permits it.",
-      "related_terms": ["sapinda-relationship", "custom-or-usage"]
+      "related_terms": [
+        "sapinda-relationship",
+        "custom-or-usage"
+      ]
+    },
+    {
+      "id": "abridged-prospectus",
+      "code": "COMP.01",
+      "term": "Abridged Prospectus",
+      "category": "COMP",
+      "definition": "A short-form version of a full prospectus containing only the key facts an investor needs, in a format set by SEBI.",
+      "statute_reference": "Section 2(1), Companies Act, 2013",
+      "example": "A company advertising a share issue in a newspaper typically uses an abridged prospectus rather than the full document.",
+      "related_terms": [
+        "prospectus"
+      ]
+    },
+    {
+      "id": "accounting-standards",
+      "code": "COMP.02",
+      "term": "Accounting Standards",
+      "category": "COMP",
+      "definition": "The official rules that set out how companies must record and report their finances.",
+      "statute_reference": "Section 2(2), Companies Act, 2013",
+      "example": "A company preparing its balance sheet must follow the accounting standards notified under Section 133.",
+      "related_terms": [
+        "financial-statement"
+      ]
+    },
+    {
+      "id": "alter-alteration",
+      "code": "COMP.03",
+      "term": "Alter / Alteration",
+      "category": "COMP",
+      "definition": "Making any addition, removal, or change to a document, such as a company's constitutional documents.",
+      "statute_reference": "Section 2(3), Companies Act, 2013",
+      "example": "Changing a clause in the articles of association to add a new business activity counts as an alteration.",
+      "related_terms": [
+        "articles",
+        "memorandum"
+      ]
+    },
+    {
+      "id": "appellate-tribunal",
+      "code": "COMP.04",
+      "term": "Appellate Tribunal",
+      "category": "COMP",
+      "definition": "The National Company Law Appellate Tribunal (NCLAT), the body that hears appeals against orders of the NCLT.",
+      "statute_reference": "Section 2(4), Companies Act, 2013",
+      "example": "A company unhappy with an NCLT ruling can appeal to the Appellate Tribunal.",
+      "related_terms": [
+        "tribunal"
+      ]
+    },
+    {
+      "id": "articles",
+      "code": "COMP.05",
+      "term": "Articles (of Association)",
+      "category": "COMP",
+      "definition": "The internal rulebook of a company, governing how it is run day to day, as originally drafted or later changed.",
+      "statute_reference": "Section 2(5), Companies Act, 2013",
+      "example": "A company's articles typically set out how directors are appointed and how meetings are conducted.",
+      "related_terms": [
+        "memorandum",
+        "alter-alteration"
+      ]
+    },
+    {
+      "id": "associate-company",
+      "code": "COMP.06",
+      "term": "Associate Company",
+      "category": "COMP",
+      "definition": "A company in which another company holds significant influence (at least 20% of share capital, or a say in business decisions) without it being a subsidiary. Includes joint ventures.",
+      "statute_reference": "Section 2(6), Companies Act, 2013",
+      "example": "If Company A holds 25% of Company B's shares but doesn't control its board, B is an associate company of A.",
+      "related_terms": [
+        "subsidiary-company",
+        "holding-company",
+        "control"
+      ]
+    },
+    {
+      "id": "auditing-standards",
+      "code": "COMP.07",
+      "term": "Auditing Standards",
+      "category": "COMP",
+      "definition": "The official rules that govern how a company's accounts must be audited.",
+      "statute_reference": "Section 2(7), Companies Act, 2013",
+      "example": "An auditor reviewing a company's books must follow the auditing standards notified under Section 143.",
+      "related_terms": [
+        "chartered-accountant"
+      ]
+    },
+    {
+      "id": "authorised-capital",
+      "code": "COMP.08",
+      "term": "Authorised Capital (Nominal Capital)",
+      "category": "COMP",
+      "definition": "The maximum amount of share capital a company is permitted to raise, as fixed in its memorandum.",
+      "statute_reference": "Section 2(8), Companies Act, 2013",
+      "example": "A company with authorised capital of ₹10 crore cannot issue shares worth more than that without amending its memorandum.",
+      "related_terms": [
+        "memorandum",
+        "issued-capital",
+        "paid-up-share-capital"
+      ]
+    },
+    {
+      "id": "banking-company",
+      "code": "COMP.09",
+      "term": "Banking Company",
+      "category": "COMP",
+      "definition": "A company carrying on the business of banking, as defined under the Banking Regulation Act, 1949.",
+      "statute_reference": "Section 2(9), Companies Act, 2013",
+      "example": "A commercial bank incorporated as a company is a banking company for the purposes of this Act.",
+      "related_terms": []
+    },
+    {
+      "id": "board-of-directors",
+      "code": "COMP.10",
+      "term": "Board of Directors (Board)",
+      "category": "COMP",
+      "definition": "The collective group of all directors of a company, acting together as the company's governing body.",
+      "statute_reference": "Section 2(10), Companies Act, 2013",
+      "example": "A major decision like approving the annual accounts is typically taken by the Board, not a single director.",
+      "related_terms": [
+        "director",
+        "managing-director"
+      ]
+    },
+    {
+      "id": "body-corporate",
+      "code": "COMP.11",
+      "term": "Body Corporate (Corporation)",
+      "category": "COMP",
+      "definition": "A broader category than 'company' — includes companies incorporated outside India, but excludes co-operative societies and certain other entities the government specifically carves out.",
+      "statute_reference": "Section 2(11), Companies Act, 2013",
+      "example": "A corporation formed under a foreign country's law that does business in India is a body corporate.",
+      "related_terms": [
+        "company"
+      ]
+    },
+    {
+      "id": "book-and-paper",
+      "code": "COMP.12",
+      "term": "Book and Paper / Book or Paper",
+      "category": "COMP",
+      "definition": "A company's official records — account books, deeds, vouchers, documents, minutes, and registers — whether kept on paper or electronically.",
+      "statute_reference": "Section 2(12), Companies Act, 2013",
+      "example": "Minutes of a board meeting saved only on the company's server still count as 'book and paper'.",
+      "related_terms": [
+        "books-of-account",
+        "document"
+      ]
+    },
+    {
+      "id": "books-of-account",
+      "code": "COMP.13",
+      "term": "Books of Account",
+      "category": "COMP",
+      "definition": "The financial records a company must keep, covering money received and spent, sales and purchases, assets and liabilities, and (where applicable) cost records.",
+      "statute_reference": "Section 2(13), Companies Act, 2013",
+      "example": "A ledger tracking every payment a company makes and receives forms part of its books of account.",
+      "related_terms": [
+        "book-and-paper",
+        "financial-statement"
+      ]
+    },
+    {
+      "id": "branch-office",
+      "code": "COMP.14",
+      "term": "Branch Office",
+      "category": "COMP",
+      "definition": "Any office a company itself describes as a branch office.",
+      "statute_reference": "Section 2(14), Companies Act, 2013",
+      "example": "A company's regional sales office in another city, which the company labels a 'branch', is a branch office under the Act.",
+      "related_terms": []
+    },
+    {
+      "id": "called-up-capital",
+      "code": "COMP.15",
+      "term": "Called-Up Capital",
+      "category": "COMP",
+      "definition": "The portion of a shareholder's agreed investment that the company has actually asked to be paid so far.",
+      "statute_reference": "Section 2(15), Companies Act, 2013",
+      "example": "If a company has called for only half the value of issued shares, that half is the called-up capital.",
+      "related_terms": [
+        "issued-capital",
+        "paid-up-share-capital"
+      ]
+    },
+    {
+      "id": "charge",
+      "code": "COMP.16",
+      "term": "Charge",
+      "category": "COMP",
+      "definition": "A right or interest created over a company's property or assets as security for a debt, including a mortgage.",
+      "statute_reference": "Section 2(16), Companies Act, 2013",
+      "example": "A bank taking a company's factory as security for a loan creates a charge over that property.",
+      "related_terms": []
+    },
+    {
+      "id": "chartered-accountant",
+      "code": "COMP.17",
+      "term": "Chartered Accountant",
+      "category": "COMP",
+      "definition": "A person holding a valid certificate of practice under the Chartered Accountants Act, 1949.",
+      "statute_reference": "Section 2(17), Companies Act, 2013",
+      "example": "A company's statutory auditor must be a practising chartered accountant.",
+      "related_terms": [
+        "auditing-standards"
+      ]
+    },
+    {
+      "id": "chief-executive-officer",
+      "code": "COMP.18",
+      "term": "Chief Executive Officer (CEO)",
+      "category": "COMP",
+      "definition": "An officer of a company specifically designated by the company as its Chief Executive Officer.",
+      "statute_reference": "Section 2(18), Companies Act, 2013",
+      "example": "A company's board resolution naming an individual as CEO makes that title formal under the Act.",
+      "related_terms": [
+        "key-managerial-personnel",
+        "officer"
+      ]
+    },
+    {
+      "id": "chief-financial-officer",
+      "code": "COMP.19",
+      "term": "Chief Financial Officer (CFO)",
+      "category": "COMP",
+      "definition": "A person appointed by a company specifically to the role of Chief Financial Officer.",
+      "statute_reference": "Section 2(19), Companies Act, 2013",
+      "example": "The CFO is typically responsible for overseeing a company's financial statements before board approval.",
+      "related_terms": [
+        "key-managerial-personnel",
+        "financial-statement"
+      ]
+    },
+    {
+      "id": "company",
+      "code": "COMP.20",
+      "term": "Company",
+      "category": "COMP",
+      "definition": "A company incorporated under this Act, or under any earlier companies law that applied in India.",
+      "statute_reference": "Section 2(20), Companies Act, 2013",
+      "example": "A private limited company registered with the Registrar of Companies is a 'company' under this Act.",
+      "related_terms": [
+        "body-corporate",
+        "private-company",
+        "public-company"
+      ]
+    },
+    {
+      "id": "company-limited-by-guarantee",
+      "code": "COMP.21",
+      "term": "Company Limited by Guarantee",
+      "category": "COMP",
+      "definition": "A company where members' liability is capped at a fixed amount they agree to contribute if the company is wound up — rather than being tied to shares.",
+      "statute_reference": "Section 2(21), Companies Act, 2013",
+      "example": "Many non-profit clubs and societies are structured as companies limited by guarantee.",
+      "related_terms": [
+        "company-limited-by-shares",
+        "unlimited-company"
+      ]
+    },
+    {
+      "id": "company-limited-by-shares",
+      "code": "COMP.22",
+      "term": "Company Limited by Shares",
+      "category": "COMP",
+      "definition": "A company where a member's liability is limited to any amount still unpaid on the shares they hold.",
+      "statute_reference": "Section 2(22), Companies Act, 2013",
+      "example": "A shareholder who has fully paid for their shares in such a company has no further liability if the company fails.",
+      "related_terms": [
+        "company-limited-by-guarantee",
+        "paid-up-share-capital"
+      ]
+    },
+    {
+      "id": "company-liquidator",
+      "code": "COMP.23",
+      "term": "Company Liquidator",
+      "category": "COMP",
+      "definition": "The person appointed to wind up a company — either by the Tribunal, or by the company/its creditors in a voluntary winding up — chosen from a government-maintained panel.",
+      "statute_reference": "Section 2(23), Companies Act, 2013",
+      "example": "When a company is ordered to be wound up, the Tribunal appoints a Company Liquidator to sell its assets and settle its debts.",
+      "related_terms": [
+        "tribunal",
+        "official-liquidator"
+      ]
+    },
+    {
+      "id": "company-secretary",
+      "code": "COMP.24",
+      "term": "Company Secretary (Secretary)",
+      "category": "COMP",
+      "definition": "A person qualified under the Company Secretaries Act, 1980 and appointed by a company to carry out the company secretary's statutory duties.",
+      "statute_reference": "Section 2(24), Companies Act, 2013",
+      "example": "A company secretary ensures board meetings and filings comply with the Companies Act.",
+      "related_terms": [
+        "key-managerial-personnel",
+        "company-secretary-in-practice"
+      ]
+    },
+    {
+      "id": "company-secretary-in-practice",
+      "code": "COMP.25",
+      "term": "Company Secretary in Practice",
+      "category": "COMP",
+      "definition": "A company secretary who is independently practising, as distinct from one employed by a single company.",
+      "statute_reference": "Section 2(25), Companies Act, 2013",
+      "example": "A company may engage a company secretary in practice to certify its annual return.",
+      "related_terms": [
+        "company-secretary"
+      ]
+    },
+    {
+      "id": "contributory",
+      "code": "COMP.26",
+      "term": "Contributory",
+      "category": "COMP",
+      "definition": "A person legally required to contribute to a company's assets if it is wound up. A shareholder who has already paid for their shares in full is still a contributory, but has no further payment obligation.",
+      "statute_reference": "Section 2(26), Companies Act, 2013",
+      "example": "Shareholders of a company being wound up may be listed as contributories, even if some owe nothing further.",
+      "related_terms": [
+        "company-liquidator"
+      ]
+    },
+    {
+      "id": "control",
+      "code": "COMP.27",
+      "term": "Control",
+      "category": "COMP",
+      "definition": "The power to appoint most of a company's directors, or to direct its management or key decisions — whether exercised directly, indirectly, alone, or together with others.",
+      "statute_reference": "Section 2(27), Companies Act, 2013",
+      "example": "A shareholder who can single-handedly appoint a majority of the board is said to have control of the company.",
+      "related_terms": [
+        "subsidiary-company",
+        "associate-company"
+      ]
+    },
+    {
+      "id": "cost-accountant",
+      "code": "COMP.28",
+      "term": "Cost Accountant",
+      "category": "COMP",
+      "definition": "A person qualified under the Cost and Works Accountants Act, 1959.",
+      "statute_reference": "Section 2(28), Companies Act, 2013",
+      "example": "A large manufacturing company may engage a cost accountant to maintain its cost records.",
+      "related_terms": []
+    },
+    {
+      "id": "court",
+      "code": "COMP.29",
+      "term": "Court",
+      "category": "COMP",
+      "definition": "Depending on the matter, this can mean the relevant High Court, a notified district court, the Court of Session, a Special Court under the Act, or a Magistrate with jurisdiction to try offences under this Act.",
+      "statute_reference": "Section 2(29), Companies Act, 2013",
+      "example": "A criminal prosecution for a Companies Act offence may be tried before a Judicial Magistrate of the First Class.",
+      "related_terms": [
+        "tribunal"
+      ]
+    },
+    {
+      "id": "debenture",
+      "code": "COMP.30",
+      "term": "Debenture",
+      "category": "COMP",
+      "definition": "An instrument acknowledging a company's debt — including debenture stock and bonds — whether or not it is secured against the company's assets.",
+      "statute_reference": "Section 2(30), Companies Act, 2013",
+      "example": "A company raising long-term funds by issuing debt certificates to investors is issuing debentures.",
+      "related_terms": [
+        "charge"
+      ]
+    },
+    {
+      "id": "deposit",
+      "code": "COMP.31",
+      "term": "Deposit",
+      "category": "COMP",
+      "definition": "Any money a company receives as a deposit or loan or in a similar form, except certain categories excluded by rules made with the Reserve Bank of India.",
+      "statute_reference": "Section 2(31), Companies Act, 2013",
+      "example": "Money the public places with a company promising a fixed return is typically treated as a deposit.",
+      "related_terms": []
+    },
+    {
+      "id": "depository",
+      "code": "COMP.32",
+      "term": "Depository",
+      "category": "COMP",
+      "definition": "An entity that holds securities in electronic (dematerialised) form on behalf of investors, as defined under the Depositories Act, 1996.",
+      "statute_reference": "Section 2(32), Companies Act, 2013",
+      "example": "An investor's shares held in a demat account are recorded through a depository.",
+      "related_terms": [
+        "global-depository-receipt",
+        "indian-depository-receipt"
+      ]
+    },
+    {
+      "id": "derivative",
+      "code": "COMP.33",
+      "term": "Derivative",
+      "category": "COMP",
+      "definition": "A financial instrument whose value is based on an underlying asset, index, or security, as defined under securities law.",
+      "statute_reference": "Section 2(33), Companies Act, 2013",
+      "example": "A futures contract on a company's shares is a type of derivative.",
+      "related_terms": [
+        "securities"
+      ]
+    },
+    {
+      "id": "director",
+      "code": "COMP.34",
+      "term": "Director",
+      "category": "COMP",
+      "definition": "A person appointed to a company's Board of Directors.",
+      "statute_reference": "Section 2(34), Companies Act, 2013",
+      "example": "Each person named on a company's board, whether executive or non-executive, is a director.",
+      "related_terms": [
+        "board-of-directors",
+        "managing-director",
+        "independent-director"
+      ]
+    },
+    {
+      "id": "dividend",
+      "code": "COMP.35",
+      "term": "Dividend",
+      "category": "COMP",
+      "definition": "A company's distribution of profits to its shareholders — this definition also covers interim dividends paid during the year.",
+      "statute_reference": "Section 2(35), Companies Act, 2013",
+      "example": "A company declaring a payout to shareholders from its annual profits is declaring a dividend.",
+      "related_terms": [
+        "net-worth"
+      ]
+    },
+    {
+      "id": "document",
+      "code": "COMP.36",
+      "term": "Document",
+      "category": "COMP",
+      "definition": "A broad term covering summons, notices, orders, forms, registers, and similar records, whether on paper or electronic, made under this or any other law.",
+      "statute_reference": "Section 2(36), Companies Act, 2013",
+      "example": "An email notice calling a shareholders' meeting counts as a document under the Act.",
+      "related_terms": [
+        "book-and-paper"
+      ]
+    },
+    {
+      "id": "employees-stock-option",
+      "code": "COMP.37",
+      "term": "Employees' Stock Option (ESOP)",
+      "category": "COMP",
+      "definition": "A scheme giving a company's directors, officers, or employees the right to buy company shares at a pre-fixed price at a future date.",
+      "statute_reference": "Section 2(37), Companies Act, 2013",
+      "example": "A startup offering ESOPs lets employees buy shares later at today's lower price, even if the company grows in value.",
+      "related_terms": []
+    },
+    {
+      "id": "expert",
+      "code": "COMP.38",
+      "term": "Expert",
+      "category": "COMP",
+      "definition": "A person qualified to issue a professional certificate under law — including engineers, valuers, chartered accountants, company secretaries, and cost accountants.",
+      "statute_reference": "Section 2(38), Companies Act, 2013",
+      "example": "A valuer certifying the worth of a company's property before a merger is acting as an expert.",
+      "related_terms": [
+        "chartered-accountant",
+        "cost-accountant"
+      ]
+    },
+    {
+      "id": "financial-institution",
+      "code": "COMP.39",
+      "term": "Financial Institution",
+      "category": "COMP",
+      "definition": "A scheduled bank, along with any other institution defined or notified as such under the Reserve Bank of India Act, 1934.",
+      "statute_reference": "Section 2(39), Companies Act, 2013",
+      "example": "A development bank notified by the RBI qualifies as a financial institution.",
+      "related_terms": [
+        "scheduled-bank",
+        "public-financial-institution"
+      ]
+    },
+    {
+      "id": "financial-statement",
+      "code": "COMP.40",
+      "term": "Financial Statement",
+      "category": "COMP",
+      "definition": "A company's core financial documents for a year — balance sheet, profit and loss (or income and expenditure) account, cash flow statement, statement of changes in equity, and any explanatory notes. Small companies and OPCs may skip the cash flow statement.",
+      "statute_reference": "Section 2(40), Companies Act, 2013",
+      "example": "At its annual general meeting, a company presents its financial statement to shareholders for approval.",
+      "related_terms": [
+        "books-of-account",
+        "accounting-standards"
+      ]
+    },
+    {
+      "id": "financial-year",
+      "code": "COMP.41",
+      "term": "Financial Year",
+      "category": "COMP",
+      "definition": "The 12-month period ending on 31 March each year that a company's accounts are made up for (with a longer first period if incorporated after 1 January). Certain companies with foreign holding companies may get Tribunal approval for a different period.",
+      "statute_reference": "Section 2(41), Companies Act, 2013",
+      "example": "A company incorporated in India on 1 June 2024 would have its first financial year end on 31 March 2025.",
+      "related_terms": [
+        "financial-statement"
+      ]
+    },
+    {
+      "id": "foreign-company",
+      "code": "COMP.42",
+      "term": "Foreign Company",
+      "category": "COMP",
+      "definition": "A company or body corporate incorporated outside India that has a place of business in India (directly or through an agent, including online) and conducts business here.",
+      "statute_reference": "Section 2(42), Companies Act, 2013",
+      "example": "An overseas company that opens a liaison office in Mumbai and transacts business there is a foreign company under the Act.",
+      "related_terms": [
+        "body-corporate"
+      ]
+    },
+    {
+      "id": "free-reserves",
+      "code": "COMP.43",
+      "term": "Free Reserves",
+      "category": "COMP",
+      "definition": "Reserves shown in a company's latest audited balance sheet that are available to be paid out as dividend — excluding unrealised or notional gains and revaluation reserves.",
+      "statute_reference": "Section 2(43), Companies Act, 2013",
+      "example": "A company can generally use its free reserves to fund a dividend payout, but not reserves created purely from revaluing its assets.",
+      "related_terms": [
+        "dividend",
+        "net-worth"
+      ]
+    },
+    {
+      "id": "global-depository-receipt",
+      "code": "COMP.44",
+      "term": "Global Depository Receipt (GDR)",
+      "category": "COMP",
+      "definition": "An instrument issued by a foreign depository outside India, representing shares of an Indian company, authorised by that company.",
+      "statute_reference": "Section 2(44), Companies Act, 2013",
+      "example": "An Indian company wanting to raise funds from foreign investors may issue GDRs listed on an overseas exchange.",
+      "related_terms": [
+        "depository",
+        "indian-depository-receipt"
+      ]
+    },
+    {
+      "id": "government-company",
+      "code": "COMP.45",
+      "term": "Government Company",
+      "category": "COMP",
+      "definition": "A company where the Central Government and/or one or more State Governments together hold at least 51% of the paid-up share capital — including its subsidiaries.",
+      "statute_reference": "Section 2(45), Companies Act, 2013",
+      "example": "A public sector undertaking majority-owned by the Central Government is a Government company.",
+      "related_terms": [
+        "paid-up-share-capital"
+      ]
+    },
+    {
+      "id": "holding-company",
+      "code": "COMP.46",
+      "term": "Holding Company",
+      "category": "COMP",
+      "definition": "A company that has one or more other companies as its subsidiaries.",
+      "statute_reference": "Section 2(46), Companies Act, 2013",
+      "example": "If Company A controls Company B's board, A is B's holding company and B is A's subsidiary.",
+      "related_terms": [
+        "subsidiary-company",
+        "associate-company"
+      ]
+    },
+    {
+      "id": "independent-director",
+      "code": "COMP.47",
+      "term": "Independent Director",
+      "category": "COMP",
+      "definition": "A director who meets the independence criteria set out in Section 149(5) — broadly, someone with no material financial or personal ties to the company that could compromise their judgment.",
+      "statute_reference": "Section 2(47), Companies Act, 2013",
+      "example": "Listed companies are required to appoint a minimum number of independent directors to their board.",
+      "related_terms": [
+        "director",
+        "board-of-directors"
+      ]
+    },
+    {
+      "id": "indian-depository-receipt",
+      "code": "COMP.48",
+      "term": "Indian Depository Receipt (IDR)",
+      "category": "COMP",
+      "definition": "An instrument issued by a domestic depository in India, representing shares of a foreign company, authorised by that foreign company.",
+      "statute_reference": "Section 2(48), Companies Act, 2013",
+      "example": "A foreign company seeking to raise capital from Indian investors without a full listing may issue IDRs.",
+      "related_terms": [
+        "depository",
+        "global-depository-receipt"
+      ]
+    },
+    {
+      "id": "interested-director",
+      "code": "COMP.49",
+      "term": "Interested Director",
+      "category": "COMP",
+      "definition": "A director who has a personal stake — directly, through a relative, or through a firm or entity they're connected to — in a contract or proposed contract the company is entering into.",
+      "statute_reference": "Section 2(49), Companies Act, 2013",
+      "example": "A director whose relative's firm is supplying goods to the company would be an interested director in that contract.",
+      "related_terms": [
+        "director",
+        "related-party"
+      ]
+    },
+    {
+      "id": "issued-capital",
+      "code": "COMP.50",
+      "term": "Issued Capital",
+      "category": "COMP",
+      "definition": "The portion of a company's authorised capital that it has actually offered for subscription.",
+      "statute_reference": "Section 2(50), Companies Act, 2013",
+      "example": "A company with ₹10 crore authorised capital might issue only ₹6 crore worth of shares at a given time.",
+      "related_terms": [
+        "authorised-capital",
+        "called-up-capital"
+      ]
+    },
+    {
+      "id": "key-managerial-personnel",
+      "code": "COMP.51",
+      "term": "Key Managerial Personnel (KMP)",
+      "category": "COMP",
+      "definition": "A company's senior leadership as defined by the Act: the CEO/managing director/manager, the company secretary, any whole-time director, the CFO, and any other officer specifically prescribed.",
+      "statute_reference": "Section 2(51), Companies Act, 2013",
+      "example": "A company's CEO, CFO, and company secretary together form part of its key managerial personnel.",
+      "related_terms": [
+        "chief-executive-officer",
+        "chief-financial-officer",
+        "company-secretary",
+        "whole-time-director"
+      ]
+    },
+    {
+      "id": "listed-company",
+      "code": "COMP.52",
+      "term": "Listed Company",
+      "category": "COMP",
+      "definition": "A company that has any of its securities listed on a recognised stock exchange.",
+      "statute_reference": "Section 2(52), Companies Act, 2013",
+      "example": "A company whose shares trade on the NSE or BSE is a listed company.",
+      "related_terms": [
+        "recognised-stock-exchange",
+        "securities"
+      ]
+    },
+    {
+      "id": "manager",
+      "code": "COMP.53",
+      "term": "Manager",
+      "category": "COMP",
+      "definition": "An individual given overall or substantial management of a company's affairs, under the Board's supervision, whatever their exact title.",
+      "statute_reference": "Section 2(53), Companies Act, 2013",
+      "example": "A person entrusted with running a company's daily operations, subject to Board oversight, is its manager under the Act.",
+      "related_terms": [
+        "managing-director",
+        "board-of-directors"
+      ]
+    },
+    {
+      "id": "managing-director",
+      "code": "COMP.54",
+      "term": "Managing Director (MD)",
+      "category": "COMP",
+      "definition": "A director given substantial powers of management over a company's affairs — by the articles, an agreement, a shareholder resolution, or the Board. Purely routine administrative acts (like signing cheques) don't count as 'substantial powers'.",
+      "statute_reference": "Section 2(54), Companies Act, 2013",
+      "example": "A director authorised to make major operational and strategic decisions on the company's behalf is its managing director.",
+      "related_terms": [
+        "director",
+        "manager",
+        "board-of-directors"
+      ]
+    },
+    {
+      "id": "member",
+      "code": "COMP.55",
+      "term": "Member",
+      "category": "COMP",
+      "definition": "A person who is a shareholder of record — either a subscriber to the memorandum, someone who has agreed in writing to become a member and is entered in the register, or a beneficial owner recorded through a depository.",
+      "statute_reference": "Section 2(55), Companies Act, 2013",
+      "example": "Anyone whose name appears in a company's register of members, including those holding shares electronically, is a member.",
+      "related_terms": [
+        "memorandum",
+        "depository"
+      ]
+    },
+    {
+      "id": "memorandum",
+      "code": "COMP.56",
+      "term": "Memorandum (of Association)",
+      "category": "COMP",
+      "definition": "A company's foundational charter document, setting out its name, objects, and scope, as originally framed or later altered.",
+      "statute_reference": "Section 2(56), Companies Act, 2013",
+      "example": "A company's memorandum states the core business activities it is permitted to carry out.",
+      "related_terms": [
+        "articles",
+        "alter-alteration"
+      ]
+    },
+    {
+      "id": "net-worth",
+      "code": "COMP.57",
+      "term": "Net Worth",
+      "category": "COMP",
+      "definition": "A company's paid-up share capital plus reserves built from profits and share premium, minus accumulated losses and unwritten-off deferred expenses — excluding revaluation reserves and similar bookkeeping adjustments.",
+      "statute_reference": "Section 2(57), Companies Act, 2013",
+      "example": "A company's net worth is a key figure lenders check before extending credit.",
+      "related_terms": [
+        "paid-up-share-capital",
+        "free-reserves"
+      ]
+    },
+    {
+      "id": "notification",
+      "code": "COMP.58",
+      "term": "Notification",
+      "category": "COMP",
+      "definition": "An official announcement published in the Government Gazette.",
+      "statute_reference": "Section 2(58), Companies Act, 2013",
+      "example": "A new rule under the Companies Act typically takes effect once notified in the Official Gazette.",
+      "related_terms": []
+    },
+    {
+      "id": "officer",
+      "code": "COMP.59",
+      "term": "Officer",
+      "category": "COMP",
+      "definition": "Any director, manager, or key managerial personnel of a company, plus anyone whose instructions the Board is accustomed to follow.",
+      "statute_reference": "Section 2(59), Companies Act, 2013",
+      "example": "A company's finance head who effectively directs the Board's decisions may be treated as an officer even without a formal title.",
+      "related_terms": [
+        "key-managerial-personnel",
+        "director"
+      ]
+    },
+    {
+      "id": "officer-who-is-in-default",
+      "code": "COMP.60",
+      "term": "Officer Who Is in Default",
+      "category": "COMP",
+      "definition": "The specific officers (whole-time directors, KMPs, specified directors, or others knowingly involved in a lapse) who can be held personally liable for a company's default under the Act.",
+      "statute_reference": "Section 2(60), Companies Act, 2013",
+      "example": "If a company fails to file its annual return, the officer who is in default — often the company secretary or a specified director — may face penalties.",
+      "related_terms": [
+        "key-managerial-personnel",
+        "whole-time-director"
+      ]
+    },
+    {
+      "id": "official-liquidator",
+      "code": "COMP.61",
+      "term": "Official Liquidator",
+      "category": "COMP",
+      "definition": "A liquidator appointed under Section 359 to handle certain company winding-up processes.",
+      "statute_reference": "Section 2(61), Companies Act, 2013",
+      "example": "In some winding-up proceedings, the Official Liquidator takes charge of realising and distributing the company's assets.",
+      "related_terms": [
+        "company-liquidator"
+      ]
+    },
+    {
+      "id": "one-person-company",
+      "code": "COMP.62",
+      "term": "One Person Company (OPC)",
+      "category": "COMP",
+      "definition": "A company that has only a single individual as its member.",
+      "statute_reference": "Section 2(62), Companies Act, 2013",
+      "example": "A solo entrepreneur who wants limited liability without bringing in a co-founder can register a One Person Company.",
+      "related_terms": [
+        "private-company"
+      ]
+    },
+    {
+      "id": "ordinary-or-special-resolution",
+      "code": "COMP.63",
+      "term": "Ordinary or Special Resolution",
+      "category": "COMP",
+      "definition": "A resolution passed by a company's members at a general meeting, with the required voting majority defined under Section 114 (simple majority for ordinary, higher threshold for special).",
+      "statute_reference": "Section 2(63), Companies Act, 2013",
+      "example": "Changing a company's name typically requires a special resolution, needing a larger majority than routine matters.",
+      "related_terms": []
+    },
+    {
+      "id": "paid-up-share-capital",
+      "code": "COMP.64",
+      "term": "Paid-Up Share Capital",
+      "category": "COMP",
+      "definition": "The total amount actually received and credited as paid on issued shares, excluding any other sums received in respect of those shares.",
+      "statute_reference": "Section 2(64), Companies Act, 2013",
+      "example": "If shareholders have paid the full call money on their shares, that total is the company's paid-up share capital.",
+      "related_terms": [
+        "called-up-capital",
+        "issued-capital"
+      ]
+    },
+    {
+      "id": "postal-ballot",
+      "code": "COMP.65",
+      "term": "Postal Ballot",
+      "category": "COMP",
+      "definition": "Voting by shareholders through post or electronic means, rather than being physically present at a meeting.",
+      "statute_reference": "Section 2(65), Companies Act, 2013",
+      "example": "A company may pass certain resolutions by postal ballot instead of calling a general meeting.",
+      "related_terms": [
+        "ordinary-or-special-resolution"
+      ]
+    },
+    {
+      "id": "prescribed",
+      "code": "COMP.66",
+      "term": "Prescribed",
+      "category": "COMP",
+      "definition": "Set out in the rules made under this Act (as opposed to the Act's main text itself).",
+      "statute_reference": "Section 2(66), Companies Act, 2013",
+      "example": "Where the Act says a fee is 'as prescribed', the exact amount is found in the accompanying rules, not the Act itself.",
+      "related_terms": []
+    },
+    {
+      "id": "previous-company-law",
+      "code": "COMP.67",
+      "term": "Previous Company Law",
+      "category": "COMP",
+      "definition": "Earlier legislation that governed companies in India before this Act, including the Companies Act, 1956 and various pre-independence company laws.",
+      "statute_reference": "Section 2(67), Companies Act, 2013",
+      "example": "A company originally registered under the Companies Act, 1956 continues its existence under this Act by virtue of this definition.",
+      "related_terms": [
+        "company"
+      ]
+    },
+    {
+      "id": "private-company",
+      "code": "COMP.68",
+      "term": "Private Company",
+      "category": "COMP",
+      "definition": "A company whose articles restrict share transfers, cap membership at 200 (excluding current/former employee-members), and prohibit inviting the public to subscribe for its securities.",
+      "statute_reference": "Section 2(68), Companies Act, 2013",
+      "example": "A family-owned business that doesn't offer its shares to the public is typically structured as a private company.",
+      "related_terms": [
+        "public-company",
+        "one-person-company"
+      ]
+    },
+    {
+      "id": "promoter",
+      "code": "COMP.69",
+      "term": "Promoter",
+      "category": "COMP",
+      "definition": "A person named as a promoter in a prospectus or annual return, or who controls the company's affairs, or whose advice the Board is accustomed to follow (excluding purely professional advisors).",
+      "statute_reference": "Section 2(69), Companies Act, 2013",
+      "example": "The founder who set up a company and still directs its major decisions is typically its promoter.",
+      "related_terms": [
+        "control",
+        "prospectus"
+      ]
+    },
+    {
+      "id": "prospectus",
+      "code": "COMP.70",
+      "term": "Prospectus",
+      "category": "COMP",
+      "definition": "Any document, notice, or advertisement inviting the public to subscribe for or buy a company's securities, including red herring and shelf prospectuses.",
+      "statute_reference": "Section 2(70), Companies Act, 2013",
+      "example": "A document a company publishes to invite the public to buy its shares in an IPO is a prospectus.",
+      "related_terms": [
+        "abridged-prospectus"
+      ]
+    },
+    {
+      "id": "public-company",
+      "code": "COMP.71",
+      "term": "Public Company",
+      "category": "COMP",
+      "definition": "A company that isn't a private company and has a minimum paid-up capital as may be prescribed. A subsidiary of a public company is itself treated as public, even if its own articles look private.",
+      "statute_reference": "Section 2(71), Companies Act, 2013",
+      "example": "A company listed on a stock exchange, or one widely held by the public, is generally a public company.",
+      "related_terms": [
+        "private-company",
+        "listed-company"
+      ]
+    },
+    {
+      "id": "public-financial-institution",
+      "code": "COMP.72",
+      "term": "Public Financial Institution",
+      "category": "COMP",
+      "definition": "Specific institutions like LIC, and others notified by the Central Government, generally requiring majority government ownership or a statutory basis.",
+      "statute_reference": "Section 2(72), Companies Act, 2013",
+      "example": "Life Insurance Corporation of India is a public financial institution by name under this clause.",
+      "related_terms": [
+        "financial-institution"
+      ]
+    },
+    {
+      "id": "recognised-stock-exchange",
+      "code": "COMP.73",
+      "term": "Recognised Stock Exchange",
+      "category": "COMP",
+      "definition": "A stock exchange recognised as such under the Securities Contracts (Regulation) Act, 1956.",
+      "statute_reference": "Section 2(73), Companies Act, 2013",
+      "example": "The BSE and NSE are recognised stock exchanges in India.",
+      "related_terms": [
+        "listed-company",
+        "securities"
+      ]
+    },
+    {
+      "id": "register-of-companies",
+      "code": "COMP.74",
+      "term": "Register of Companies",
+      "category": "COMP",
+      "definition": "The official record of companies maintained by the Registrar, on paper or electronically.",
+      "statute_reference": "Section 2(74), Companies Act, 2013",
+      "example": "Checking a company's incorporation details usually means searching the register of companies.",
+      "related_terms": [
+        "registrar"
+      ]
+    },
+    {
+      "id": "registrar",
+      "code": "COMP.75",
+      "term": "Registrar",
+      "category": "COMP",
+      "definition": "The government officer (or an Additional, Joint, Deputy, or Assistant Registrar) responsible for registering companies and carrying out related statutory functions.",
+      "statute_reference": "Section 2(75), Companies Act, 2013",
+      "example": "A new company must file its incorporation documents with the Registrar of Companies for its state.",
+      "related_terms": [
+        "register-of-companies"
+      ]
+    },
+    {
+      "id": "related-party",
+      "code": "COMP.76",
+      "term": "Related Party",
+      "category": "COMP",
+      "definition": "A wide category covering a director or their relative, KMPs and their relatives, firms or companies connected to a director/manager, and other entities linked by control or influence.",
+      "statute_reference": "Section 2(76), Companies Act, 2013",
+      "example": "A company purchasing goods from a firm in which its director is a partner is dealing with a related party.",
+      "related_terms": [
+        "interested-director",
+        "relative",
+        "control"
+      ]
+    },
+    {
+      "id": "relative",
+      "code": "COMP.77",
+      "term": "Relative",
+      "category": "COMP",
+      "definition": "A person related to another by being part of the same Hindu Undivided Family, being spouses, or falling within a relationship specifically prescribed by rules.",
+      "statute_reference": "Section 2(77), Companies Act, 2013",
+      "example": "A director's spouse counts as a 'relative' for the purposes of related-party rules.",
+      "related_terms": [
+        "related-party"
+      ]
+    },
+    {
+      "id": "remuneration",
+      "code": "COMP.78",
+      "term": "Remuneration",
+      "category": "COMP",
+      "definition": "Any money or money's worth given to a person for services rendered, including perquisites as defined under income tax law.",
+      "statute_reference": "Section 2(78), Companies Act, 2013",
+      "example": "A managing director's salary along with company-provided housing counts as remuneration.",
+      "related_terms": [
+        "managing-director"
+      ]
+    },
+    {
+      "id": "schedule",
+      "code": "COMP.79",
+      "term": "Schedule",
+      "category": "COMP",
+      "definition": "A Schedule attached to this Act.",
+      "statute_reference": "Section 2(79), Companies Act, 2013",
+      "example": "Depreciation rates for company assets are set out in Schedule II to the Act.",
+      "related_terms": []
+    },
+    {
+      "id": "scheduled-bank",
+      "code": "COMP.80",
+      "term": "Scheduled Bank",
+      "category": "COMP",
+      "definition": "A bank included in the Second Schedule of the Reserve Bank of India Act, 1934.",
+      "statute_reference": "Section 2(80), Companies Act, 2013",
+      "example": "Most major nationalised and private banks in India are scheduled banks.",
+      "related_terms": [
+        "financial-institution"
+      ]
+    },
+    {
+      "id": "securities",
+      "code": "COMP.81",
+      "term": "Securities",
+      "category": "COMP",
+      "definition": "Financial instruments as defined under the Securities Contracts (Regulation) Act, 1956 — broadly, shares, bonds, debentures, and similar tradeable instruments.",
+      "statute_reference": "Section 2(81), Companies Act, 2013",
+      "example": "Shares and debentures issued by a company are both types of securities.",
+      "related_terms": [
+        "share",
+        "debenture",
+        "derivative"
+      ]
+    },
+    {
+      "id": "securities-and-exchange-board",
+      "code": "COMP.82",
+      "term": "Securities and Exchange Board (SEBI)",
+      "category": "COMP",
+      "definition": "The Securities and Exchange Board of India, the regulator established under the SEBI Act, 1992.",
+      "statute_reference": "Section 2(82), Companies Act, 2013",
+      "example": "A listed company's disclosure obligations are largely set by SEBI regulations.",
+      "related_terms": [
+        "recognised-stock-exchange"
+      ]
+    },
+    {
+      "id": "serious-fraud-investigation-office",
+      "code": "COMP.83",
+      "term": "Serious Fraud Investigation Office (SFIO)",
+      "category": "COMP",
+      "definition": "The specialised government office, set up under Section 211, that investigates serious corporate fraud.",
+      "statute_reference": "Section 2(83), Companies Act, 2013",
+      "example": "A large-scale accounting fraud at a listed company may be referred to the SFIO for investigation.",
+      "related_terms": []
+    },
+    {
+      "id": "share",
+      "code": "COMP.84",
+      "term": "Share",
+      "category": "COMP",
+      "definition": "A unit of a company's share capital, including stock.",
+      "statute_reference": "Section 2(84), Companies Act, 2013",
+      "example": "Owning 100 shares of a company makes you a part-owner to that extent.",
+      "related_terms": [
+        "securities",
+        "member"
+      ]
+    },
+    {
+      "id": "small-company",
+      "code": "COMP.85",
+      "term": "Small Company",
+      "category": "COMP",
+      "definition": "A non-public company with paid-up capital and turnover below prescribed thresholds, excluding holding/subsidiary companies, Section 8 companies, and companies governed by special Acts.",
+      "statute_reference": "Section 2(85), Companies Act, 2013",
+      "example": "A small, closely-held private company with modest turnover may qualify for the lighter compliance rules given to small companies.",
+      "related_terms": [
+        "private-company",
+        "turnover"
+      ]
+    },
+    {
+      "id": "subscribed-capital",
+      "code": "COMP.86",
+      "term": "Subscribed Capital",
+      "category": "COMP",
+      "definition": "The portion of a company's capital that has actually been taken up (subscribed to) by its members at a given time.",
+      "statute_reference": "Section 2(86), Companies Act, 2013",
+      "example": "If investors have agreed to take up only part of the issued shares, that part is the subscribed capital.",
+      "related_terms": [
+        "issued-capital"
+      ]
+    },
+    {
+      "id": "subsidiary-company",
+      "code": "COMP.87",
+      "term": "Subsidiary Company (Subsidiary)",
+      "category": "COMP",
+      "definition": "A company controlled by another (the holding company) — either because the holding company controls the composition of its Board, or holds more than half its total share capital, directly or with other subsidiaries.",
+      "statute_reference": "Section 2(87), Companies Act, 2013",
+      "example": "If Company A owns 60% of Company B's shares, B is a subsidiary of A.",
+      "related_terms": [
+        "holding-company",
+        "control"
+      ]
+    },
+    {
+      "id": "sweat-equity-shares",
+      "code": "COMP.88",
+      "term": "Sweat Equity Shares",
+      "category": "COMP",
+      "definition": "Shares issued to a company's directors or employees at a discount, or for non-cash consideration, in exchange for know-how or intellectual property they've contributed.",
+      "statute_reference": "Section 2(88), Companies Act, 2013",
+      "example": "A startup issuing discounted shares to a founder in exchange for a patent they developed is issuing sweat equity shares.",
+      "related_terms": [
+        "employees-stock-option"
+      ]
+    },
+    {
+      "id": "total-voting-power",
+      "code": "COMP.89",
+      "term": "Total Voting Power",
+      "category": "COMP",
+      "definition": "The total number of votes that could be cast on a matter if every member (or their proxy) entitled to vote were present and voted.",
+      "statute_reference": "Section 2(89), Companies Act, 2013",
+      "example": "A shareholder holding 30% of the total voting power can significantly influence a resolution's outcome.",
+      "related_terms": [
+        "voting-right"
+      ]
+    },
+    {
+      "id": "tribunal",
+      "code": "COMP.90",
+      "term": "Tribunal",
+      "category": "COMP",
+      "definition": "The National Company Law Tribunal (NCLT), constituted under Section 408, which handles most company law disputes and approvals.",
+      "statute_reference": "Section 2(90), Companies Act, 2013",
+      "example": "A company seeking approval for a merger typically applies to the Tribunal.",
+      "related_terms": [
+        "appellate-tribunal",
+        "company-liquidator"
+      ]
+    },
+    {
+      "id": "turnover",
+      "code": "COMP.91",
+      "term": "Turnover",
+      "category": "COMP",
+      "definition": "The total value a company realises from selling goods, supplying goods, or rendering services during a financial year.",
+      "statute_reference": "Section 2(91), Companies Act, 2013",
+      "example": "A company's turnover for the year is the total sales value it recorded, regardless of profit margin.",
+      "related_terms": [
+        "financial-year",
+        "small-company"
+      ]
+    },
+    {
+      "id": "unlimited-company",
+      "code": "COMP.92",
+      "term": "Unlimited Company",
+      "category": "COMP",
+      "definition": "A company where members have no cap on their liability for the company's debts.",
+      "statute_reference": "Section 2(92), Companies Act, 2013",
+      "example": "In an unlimited company, a member's personal assets could be at risk if the company cannot pay its debts.",
+      "related_terms": [
+        "company-limited-by-shares",
+        "company-limited-by-guarantee"
+      ]
+    },
+    {
+      "id": "voting-right",
+      "code": "COMP.93",
+      "term": "Voting Right",
+      "category": "COMP",
+      "definition": "A member's right to vote at a company meeting, whether in person or by postal ballot.",
+      "statute_reference": "Section 2(93), Companies Act, 2013",
+      "example": "A shareholder attending the AGM exercises their voting right on resolutions put before the meeting.",
+      "related_terms": [
+        "total-voting-power",
+        "postal-ballot"
+      ]
+    },
+    {
+      "id": "whole-time-director",
+      "code": "COMP.94",
+      "term": "Whole-Time Director",
+      "category": "COMP",
+      "definition": "A director who is in the full-time employment of the company, rather than serving in a part-time or non-executive capacity.",
+      "statute_reference": "Section 2(94), Companies Act, 2013",
+      "example": "A director who works full-time managing a specific division of the company is a whole-time director.",
+      "related_terms": [
+        "director",
+        "key-managerial-personnel"
+      ]
+    },
+    {
+      "id": "words-defined-in-securities-laws",
+      "code": "COMP.95",
+      "term": "Words Defined Under Other Securities Laws",
+      "category": "COMP",
+      "definition": "A catch-all rule: any term used but not defined in this Act takes the meaning given to it under the Securities Contracts (Regulation) Act, 1956, the SEBI Act, 1992, or the Depositories Act, 1996, if defined there.",
+      "statute_reference": "Section 2(95), Companies Act, 2013",
+      "example": "If a term used in this Act isn't defined here but is defined in the SEBI Act, that SEBI Act meaning applies.",
+      "related_terms": [
+        "securities-and-exchange-board",
+        "depository"
+      ]
     }
   ]
 }
